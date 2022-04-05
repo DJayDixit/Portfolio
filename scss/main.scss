@@ -118,6 +118,27 @@ header {
   margin: 0 auto;
 }
 
+.card{
+  background-color:rgb(240, 240, 240);
+  background-size: cover;
+  padding: 3% 0 0;
+  max-width: 35ch;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: transform 300ms ease;
+  box-shadow: 0 3px 20px rgba(black, 0.2);
+}
+
+.card:hover{
+  transform: scale(1.03);
+}
+
+.education-detail{
+  background-color:rgb(240, 240, 240);
+  background-size: cover;
+  padding: 3% 3% 3% 3%;
+  box-shadow: 0 3px 20px rgba(black, 0.2);
+}
 .columns {
   display: flex;
 }
@@ -145,7 +166,13 @@ header {
       1em,
       1fr
     );
+
+  // img{
+  //   max-width: 30rem;
+  //   max-height: 15rem;
+  // }
 }
+
 
 .from-left {
   grid-column: 2 / 3;
