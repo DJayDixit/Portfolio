@@ -194,6 +194,11 @@ header {
       grid-template-columns: minmax(1em, 1fr) repeat(2, minmax(200px, 400px)) minmax(1em, 1fr);
 }
 
+.more-stuff-grid img {
+  -webkit-box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+}
+
 .from-left {
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
